@@ -8,7 +8,7 @@ body {
 }
 
 #heading_container {
-    background-color: #4674a9;
+    background-color: red;
 }
 
 #heading {
@@ -16,6 +16,7 @@ body {
     padding: 10px;
     font-weight: bold;
     text-align: center;
+    color: white;
 }
 
 .stopwatch {
@@ -27,7 +28,7 @@ body {
     border-radius: 50%;
     text-align: center;
     line-height: 250px;
-    box-shadow: 0px 0px 5px #4674a9 inset;
+    box-shadow: 0px 0px 5px red  inset;
 }
 
 
@@ -41,6 +42,7 @@ body {
     width: 48%;
     padding: 10px;
     border: none;
+    cursor: pointer;
     background-color: green;
 }
 
@@ -49,7 +51,8 @@ body {
     float: right;
     padding: 10px;
     border: none;
-    background-color: #4674a9;
+    cursor: pointer;
+    background-color: blue;
 }
 
 #stop_button {
@@ -58,6 +61,7 @@ body {
     border: none;
     display: block;
     margin-top: 10px;
+    cursor: pointer;
     background-color: red;
 }
 
@@ -65,55 +69,17 @@ footer{
     bottom: 0;
     width: 100%;
     position: absolute;
-    background-color: #4674a9;
+    background-color: red;
 }
 
 footer p {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
-@media screen and (min-width: 760px){
-
-    body {
-        margin: 0 auto;
-        height: 100vh;
-    }
-    
-    #heading_container {
-        background-color: red;
-    }
-    
-    #heading {
-        font-size: 40px;
-        padding: 10px;
-        font-weight: bold;
-        text-align: center;
-    }
-
-    .stopwatch {
-        width: 250px;
-        height: 250px;
-        font-size: 30px;
-        font-weight: bold;
-        margin: 50px auto;
-        border-radius: 50%;
-        text-align: center;
-        line-height: 250px;
-        box-shadow: 0px 0px 5px red inset;
-    }
-
-    footer{
-        bottom: 0;
-        width: 100%;
-        position: absolute;
-        background-color: red;
-    }
-    
-    footer p {
-        padding: 10px;
-        text-align: center;
-    }
-    
+footer p a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 

@@ -1,0 +1,23 @@
+{
+  "name": "stopwatch",
+  "version": "1.0.0",
+  "description": "Stopwatch application",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello there",
+    "start": "npx http-server ./ --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ezekiel8807/stopwatch.git"
+  },
+  "author": "Ezefizzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ezekiel8807/stopwatch/issues"
+  },
+  "homepage": "https://github.com/Ezekiel8807/stopwatch#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
